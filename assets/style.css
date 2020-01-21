@@ -63,19 +63,36 @@ table {
 
 header{
   display: grid;
-  grid-template: 2fr, 1fr, 1fr / 10% 3fr 4fr;
+    height: 50%;
+    grid-template: 10% 45% 45% / 25% 25% 25% 25%;
 }
 
 #main-image{
   background: orange;
-  grid-column: 0/2;
-  grid-row:0/3;
+    grid-column: 1/-2;
+    grid-row: 1/-1;
 }
 #nav-top{background: green;
-  grid-column: 1/2;
-  grid-row:1/3;}
-#grid-nav{background: beige;}
-#post-container{background: grey}
+    grid-column: 3/-1;
+    grid-row: 1/1;
+  }
+
+#grid-nav1{background: beige;
+  grid-column: 3/-2;
+    grid-row: 2/2;
+}
+#grid-nav2{background: white;
+  grid-column: 4/-1;
+      grid-row: 2/2;}
+#grid-nav3{background: beige;
+  grid-column: 3/-2;
+      grid-row: 3/-1;
+}
+#grid-nav4{background: white;
+  grid-column: 4/-1;
+      grid-row: 3/-1;}
+
+#post-container{background: grey;}
 
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
