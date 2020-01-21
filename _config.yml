@@ -23,7 +23,7 @@ email: ChumchiDesigns@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A collection of projects sharing my coding and design work for employers and potential clients.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://DCHitch092.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: thehitch
 github_username:  dchitch092
 
