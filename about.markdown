@@ -1,5 +1,5 @@
 ---
-layout: custom_front_page
+layout: default
 title: About
 permalink: /about/
 ---
