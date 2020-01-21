@@ -58,9 +58,14 @@ table {
 #grid-container{
   margin: 0 15%;
   background: red;
+
+}
+
+header{
   display: grid;
   grid-template: 2fr, 1fr, 1fr / 10% 3fr 4fr;
 }
+
 #main-image{
   background: orange;
   grid-column: 0/2;
