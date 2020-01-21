@@ -8,14 +8,14 @@
   margin: 0 25%;
   background: red;
 }
-.main-image{}
-.nav-top{}
-.grid-nav{}
-.post-container{}
+#main-image{}
+#nav-top{}
+#grid-nav{}
+#post-container{}
 
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .grid-container {
+    #grid-container {
       width: 100%;
       margin:0;
       background: blue;
