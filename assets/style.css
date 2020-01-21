@@ -9,7 +9,7 @@
    License: none (public domain)
 */
 
-/* RESET CSS */ 
+/* RESET CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,8 +56,10 @@ table {
 
 
 #grid-container{
-  margin: 0 25%;
+  margin: 0 15%;
   background: red;
+  display: grid;
+  grid-template: 2fr, 1fr, 1fr / 10% 3fr 5fr;
 }
 #main-image{}
 #nav-top{}
