@@ -29,7 +29,7 @@ github_username:  dchitch092
 #
 # Build settings
 # theme: minima
-theme: hitch-theme
+# theme: hitch-theme
 sass:
     style: compressed
 plugins:
