@@ -200,6 +200,10 @@ h2{
   margin-top: -18%;
 }
 
+.footer-thin{
+  margin-top: -2%;
+}
+
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     /* #grid-container {
