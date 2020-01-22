@@ -54,6 +54,18 @@ table {
 	border-spacing: 0;
 }
 
+/* define colours */
+
+/* $gray-lighter: #f7f7f7;
+$gray-light: #dbdbdd;
+$gray-dark: #aeafb3;
+$gray-darker: #454547;
+$pink: #e89d93;
+$yellow: #eec71a; */
+
+body{
+  background: powderblue;
+}
 
 #grid-container{
   margin: 0 15%;
@@ -77,18 +89,18 @@ header{
     grid-row: 1/1;
   }
 
-#grid-nav1{background: beige;
+#grid-nav1{background: #f7f7f7;
   grid-column: 3/-2;
     grid-row: 2/2;
 }
-#grid-nav2{background: white;
+#grid-nav2{background: #f7f7f7;
   grid-column: 4/-1;
       grid-row: 2/2;}
-#grid-nav3{background: beige;
+#grid-nav3{background: #dbdbdd;
   grid-column: 3/-2;
       grid-row: 3/-1;
 }
-#grid-nav4{background: white;
+#grid-nav4{background: #dbdbdd;
   grid-column: 4/-1;
       grid-row: 3/-1;}
 
