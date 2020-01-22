@@ -20,26 +20,24 @@
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" />
 </head>
   <body>
-    <aside class="top-background">
-      <div class="square lightYellow"></div>
-      <div class="square blue"></div>
-      <div class="square red"></div>
-      <div class="square black"></div>
-      <div class="square brown"></div>
-    </aside>
-
 
     <div id="grid-container">
       <header>
-          <h1>Richard.Hanrahan</h1>
-          <h2>software_developer</h2>
+
         <nav id="nav-top">
+          {{
           <ul>
             <li><a href="/about">About</a></li>
             <li>Posts</li>
             <li><a href="mailto:ChumchiDesigns@gmail.com">Contact</a></li>
           </ul>
+        }}
         </nav>
+
+
+          <h1>Richard.Hanrahan</h1>
+          <h2>software_developer</h2>
+
         </header>
       <main id="post-container">
           {{ content }}
@@ -55,6 +53,13 @@
       </ul>
     </footer>
 
+    <aside class="top-background">
+      <div class="square lightYellow"></div>
+      <div class="square blue"></div>
+      <div class="square red"></div>
+      <div class="square black"></div>
+      <div class="square brown"></div>
+    </aside>
 
 
 
