@@ -63,11 +63,11 @@ $gray-darker: #454547;
 $pink: #e89d93;
 $yellow: #eec71a; */
 
-$lightyellow: #faeccd;
+/* $lightyellow: #faeccd;
 $blue: #9ab6bd;
 $red: #9b4443;
 $black: #47494c;
-$brown: #bba9aa;
+$brown: #bba9aa; */
 
 .square{
       width: 100px;
@@ -75,23 +75,23 @@ $brown: #bba9aa;
 }
 
 .lightYellow{
-  background-color: $lightyellow;
+  background-color: #faeccd;
 }
 
 .blue{
-  background-color: $blue;
+  background-color: #9ab6bd;
 }
 
 .red{
-  background-color: $red;
+  background-color: #9b4443;
 }
 
 .black{
-  background-color: $black;
+  background-color: #47494c;
 }
 
 .brown{
-  background-color: $brown;
+  background-color: #bba9aa;
 }
 
 body{
