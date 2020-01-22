@@ -85,10 +85,11 @@ header{
     grid-column: 1/-2;
     grid-row: 1/-1;
 }
-#nav-top{background: #e89d93;
-    grid-column: 3/-1;
-    grid-row: 1/1;
-    font-color: white;
+#nav-top{
+  background: #e89d93;
+  grid-column: 3/-1;
+  grid-row: 1/1;
+  font-color: white;
   }
 
   #nav-top ul {
@@ -117,6 +118,16 @@ header{
       grid-row: 3/-1;}
 
 #post-container{background: grey;}
+
+#footer-container {
+  position: absolute;
+  margin-bottom: 0;
+  background: #e89d93;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction:column;
+}
 
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
