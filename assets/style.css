@@ -71,15 +71,16 @@ $brown: #bba9aa; */
 
 .top-background{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-left: 20%;
   justify-content: flex-start;
   align-items: flex-start;
   z-index: -1;
 }
 
 .square{
-      width: 40px;
-      height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .lightYellow{
@@ -103,7 +104,7 @@ $brown: #bba9aa; */
 }
 
 body{
-  background: powderblue;
+  background: #F9F8F8;
   font-color: #454547;
   font-family: 'Alata', sans-serif;
 }
@@ -164,7 +165,6 @@ header{
 #footer-container {
   padding: 4% 10%;
   margin-bottom: 0;
-  background: #e89d93;
   color: white;
 
 }
@@ -176,6 +176,11 @@ header{
 }
 #footer-container ul li {
   padding-top: 0.3em;
+}
+
+.bottom-background{
+  margin-bottom: 10px;
+
 }
 
   @media only screen and (max-width: 768px) {
