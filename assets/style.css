@@ -93,14 +93,14 @@ header{
   grid-column: 3/-2;
     grid-row: 2/2;
 }
-#grid-nav2{background: #f7f7f7;
+#grid-nav2{background: #dbdbdd;
   grid-column: 4/-1;
       grid-row: 2/2;}
 #grid-nav3{background: #dbdbdd;
   grid-column: 3/-2;
       grid-row: 3/-1;
 }
-#grid-nav4{background: #dbdbdd;
+#grid-nav4{background: #f7f7f7;
   grid-column: 4/-1;
       grid-row: 3/-1;}
 
