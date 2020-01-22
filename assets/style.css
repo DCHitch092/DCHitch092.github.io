@@ -66,6 +66,7 @@ $yellow: #eec71a; */
 body{
   background: powderblue;
   font-color: #454547;
+  font-family: 'Alata', sans-serif;
 }
 
 #grid-container{
@@ -120,7 +121,7 @@ header{
 #post-container{background: grey;}
 
 #footer-container {
-  position: absolute;
+  padding: 4% 10%;
   margin-bottom: 0;
   background: #e89d93;
   color: white;
