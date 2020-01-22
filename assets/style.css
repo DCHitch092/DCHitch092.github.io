@@ -63,7 +63,11 @@ $gray-darker: #454547;
 $pink: #e89d93;
 $yellow: #eec71a; */
 
-$light-yellow: #faeccd;
+$lightyellow: #faeccd;
+$blue: #9ab6bd;
+$red: #9b4443;
+$black: #47494c;
+$brown: #bba9aa;
 
 .square{
       width: 100px;
@@ -71,7 +75,23 @@ $light-yellow: #faeccd;
 }
 
 .lightYellow{
-  background-color: $light-yellow;
+  background-color: $lightyellow;
+}
+
+.blue{
+  background-color: $blue;
+}
+
+.red{
+  background-color: $red;
+}
+
+.black{
+  background-color: $black;
+}
+
+.brown{
+  background-color: $brown;
 }
 
 body{
