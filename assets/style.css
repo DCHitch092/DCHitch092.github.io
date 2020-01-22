@@ -91,6 +91,12 @@ header{
     font-color: white;
   }
 
+  #nav-top ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
   #nav-top a{
     text-decoration: none;
   }
