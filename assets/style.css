@@ -65,6 +65,11 @@ $yellow: #eec71a; */
 
 $light-yellow: #faeccd;
 
+.square{
+      width: 100px;
+      height: 100px;
+}
+
 .lightYellow{
   background-color: $light-yellow;
 }
