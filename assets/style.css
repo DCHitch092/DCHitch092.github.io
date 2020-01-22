@@ -107,7 +107,7 @@ $brown: #bba9aa; */
 
 body{
   background: #F9F8F8;
-  font-color: #454547;
+  color: #454547;
   font-family: 'Alata', sans-serif;
 }
 
@@ -131,10 +131,9 @@ h1{
 
 h2{
   font-size: 2.5em;
-  font-color:#bba9aa;
-  text-decoration:
+  color:#bba9aa;
+  text-decoration: none;
   text-align: center;
-
 }
 
 
@@ -146,20 +145,31 @@ h2{
   width: 100%;
 }
 #nav-top{
-  background: #e89d93;
+  /* background: #e89d93;
   grid-column: 3/-1;
   grid-row: 1/1;
-  font-color: white;
+  font-color: white; */
   }
 
   #nav-top ul {
+    color: #9ab6bd;
+    margin-top: 6%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
+
+  #nav-top
 
   #nav-top a{
     text-decoration: none;
+    color: #9ab6bd;
+
+  }
+
+  #nav-top a:hover, #nav-top a:active{
+    text-decoration: none;
+    color: #9b4443;
   }
 
 #grid-nav1{background: #f7f7f7;
