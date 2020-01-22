@@ -172,6 +172,18 @@ h2{
     color: #9b4443;
   }
 
+#flex-posts{
+  dipslay: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+
+.post-box{
+  width: 30vw;
+  height: 30vh;
+}
+
 #grid-nav1{background: #f7f7f7;
   grid-column: 2/-2;
     grid-row: 2/2;
