@@ -63,6 +63,12 @@ $gray-darker: #454547;
 $pink: #e89d93;
 $yellow: #eec71a; */
 
+$light-yellow: #faeccd;
+
+.lightYellow{
+  background-color: $light-yellow;
+}
+
 body{
   background: powderblue;
   font-color: #454547;
