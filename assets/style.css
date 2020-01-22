@@ -159,7 +159,7 @@ h2{
     justify-content: space-evenly;
   }
 
-  #nav-top
+  #nav-top{}
 
   #nav-top a{
     text-decoration: none;
