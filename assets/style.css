@@ -199,7 +199,11 @@ h2{
   grid-column: 3/-1;
       grid-row: 3/-1;}
 
-#post-container{background: grey;}
+#post-container{
+  min-height: 250px;
+    margin-top: 5%;
+    padding: 4%;
+    }
 
 #footer-container {
   padding: 4% 10%;
