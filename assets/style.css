@@ -125,6 +125,10 @@ header{
   margin-bottom: 0;
   background: #e89d93;
   color: white;
+
+}
+
+#footer-container ul {
   display: flex;
   justify-content: space-around;
   flex-direction:column;
