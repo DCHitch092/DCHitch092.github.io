@@ -69,9 +69,17 @@ $red: #9b4443;
 $black: #47494c;
 $brown: #bba9aa; */
 
+.top-background{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: -1;
+}
+
 .square{
-      width: 100px;
-      height: 100px;
+      width: 40px;
+      height: 40px;
 }
 
 .lightYellow{
