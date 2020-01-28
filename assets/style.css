@@ -178,30 +178,93 @@ h2{
 }
 
 .project-front-post{
+  background-image: url(https://avatars1.githubusercontent.com/u/55356922?s=460&v=4);
+    background-blend-mode: screen;
+    background-size: cover;
+    background-color: rgb(231, 224, 232,0.5);
   display: flex;
-  margin-top: 1.5em;
-  flex-direction: column;
-  align-items: center;
-  min-height: 252px;
-  width: 30%;
-  background: antiquewhite;
-  overflow:hidden;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    flex-direction: column;
+    align-items: center;
+    min-height: 252px;
+    width: 30%;
+    overflow: hidden;
+    justify-content: center;
+}
+
+@-webkit-keyframes imageSaturate {
+  0% {
+    background-color: rgb(231, 224, 232,0.5);
+  }
+
+  100% {
+    background-color: rgb(231, 224, 232,0);
+  }
+}
+
+@-moz-keyframes imageSaturate {
+  0% {
+    background-color: rgb(231, 224, 232,0.5);
+  }
+
+  100% {
+    background-color: rgb(231, 224, 232,0);
+  }
+}
+
+@-o-keyframes imageSaturate {
+  0% {
+    background-color: rgb(231, 224, 232,0.5);
+  }
+
+  100% {
+    background-color: rgb(231, 224, 232,0);
+  }
+}
+
+@keyframes imageSaturate {
+  0% {
+    background-color: rgb(231, 224, 232,0.5);
+  }
+
+  100% {
+    background-color: rgb(231, 224, 232,0);
+  }
+}
+
+.project-front-post:hover{
+  animation: fontbulger 2s infinite;
 }
 
 .project-front-post h2{
-    width: 130%;
+    width: 106%;
     font-size: 1.5rem;
     text-transform: lowercase;
     background: #47494c;
-    line-height: 3rem;
+    line-height: 1;
+    padding: 1rem 0.5rem;
     object-fit: cover;
     transform: rotate(-11deg);
 }
 
 .project-front-post .category-tags{
   text-transform: lowercase;
-  background: #47494c;
-  transform: rotate(-11deg);
+    opacity: 0.3;
+    flex-wrap: wrap;
+    transform: rotate(-11deg);
+    display: flex;
+    margin-top: 1em;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+p.tag{
+  color: white;
+  padding: 0.5em 1em;
 }
 
 .post-box{
@@ -229,12 +292,11 @@ h2{
 
 #post-container{
   min-height: 250px;
-  margin-top: 5%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
     }
 
 #footer-container {
