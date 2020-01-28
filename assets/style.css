@@ -177,14 +177,14 @@ h2{
   justify-content: space-evenly;
 }
 
-.project-front-page{
+.project-front-post{
   display: flex;
-    margin-top: 1.5em;
-    flex-direction: column;
-    align-items: center;
-    min-height: 252px;
-    width: 30%;
-    background: antiquewhite;
+  margin-top: 1.5em;
+  flex-direction: column;
+  align-items: center;
+  min-height: 252px;
+  width: 30%;
+  background: antiquewhite;
 }
 
 .post-box{
