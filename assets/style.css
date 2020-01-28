@@ -295,6 +295,11 @@ animation-fill-mode: forwards;
  font-size: 1rem;
     background: #47494c;
     padding: 1em 0 3em 0;
+    color: #faeccd;
+}
+
+.info h2 a, .info h2 a:hover {
+  color: #faeccd
 }
 
 h2 a {
