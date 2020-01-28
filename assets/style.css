@@ -274,7 +274,7 @@ animation-fill-mode: forwards;
 .info h2 {
  font-size: 1rem;
     background: #47494c;
-    padding: 2em 0;
+    padding: 1em 0 3em 0;
 }
 
 p.tag{
