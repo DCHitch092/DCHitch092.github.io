@@ -243,11 +243,11 @@ h2{
 
 @keyframes moveIt {
   0% {
-   transform: rotate(-3deg) translatey(300%);
+   transform: rotate(-3deg) translatey(100%);
   }
 
   100% {
-    transform: rotate(-3deg) translatey(158%);
+    transform: rotate(-3deg) translatey(80%);
   }
 }
 
@@ -258,13 +258,9 @@ animation-fill-mode: forwards;
 
 .project-front-post .info{
     width: 106%;
-    font-size: 1.5rem;
     text-transform: lowercase;
-    background: #47494c;
-    line-height: 1;
-    padding: 1rem 0.5rem;
     object-fit: cover;
-    transform: rotate(-3deg) translatey(300%);
+    transform: rotate(-3deg) translatey(100%);
 }
 
 .project-front-post .category-tags{
@@ -277,6 +273,11 @@ animation-fill-mode: forwards;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+}
+
+.info h2 {
+  font-size: 1rem;
+  background: #47494c;
 }
 
 p.tag{
