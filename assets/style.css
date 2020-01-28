@@ -130,6 +130,7 @@ header{
 h1{
   font-size: 4em;
   text-align: center;
+  pointer-events: none;
 }
 
 h2{
@@ -155,7 +156,7 @@ h2{
   #nav-top ul {
     color: #9ab6bd;
     width: 60%;
-    margin-bottom: 2em;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
