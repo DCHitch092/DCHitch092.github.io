@@ -236,7 +236,8 @@ h2{
 }
 
 .project-front-post:hover{
-  animation: fontbulger 2s infinite;
+  animation: imageSaturate 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 .project-front-post h2{
@@ -247,7 +248,7 @@ h2{
     line-height: 1;
     padding: 1rem 0.5rem;
     object-fit: cover;
-    transform: rotate(-11deg);
+    transform: rotate(-3deg);
 }
 
 .project-front-post .category-tags{
