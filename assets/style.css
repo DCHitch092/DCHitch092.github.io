@@ -118,7 +118,7 @@ body{
 }
 
 header{
-  margin-top: 1%;
+  margin-top: 2em;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -185,6 +185,23 @@ h2{
   min-height: 252px;
   width: 30%;
   background: antiquewhite;
+  overflow:hidden;
+}
+
+.project-front-post h2{
+    width: 130%;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    background: #47494c;
+    line-height: 3rem;
+    object-fit: cover;
+    transform: rotate(-11deg);
+}
+
+.project-front-post .category-tags{
+  text-transform: lowercase;
+  background: #47494c;
+  transform: rotate(-11deg);
 }
 
 .post-box{
