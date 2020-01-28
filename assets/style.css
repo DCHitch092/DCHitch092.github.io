@@ -257,7 +257,7 @@ animation-fill-mode: forwards;
     width: 106%;
     text-transform: lowercase;
     object-fit: cover;
-    transform: rotate(-3deg) translatey(100%);
+    transform: rotate(-3deg) translatey(130%);
 }
 
 .project-front-post .category-tags{
