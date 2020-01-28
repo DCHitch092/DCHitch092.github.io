@@ -251,12 +251,12 @@ h2{
   }
 }
 
-.project-front-post:hover > h2 {
+.project-front-post:hover > .info {
   animation: moveIt 1s;
 animation-fill-mode: forwards;
 }
 
-.project-front-post h2{
+.project-front-post .info{
     width: 106%;
     font-size: 1.5rem;
     text-transform: lowercase;
