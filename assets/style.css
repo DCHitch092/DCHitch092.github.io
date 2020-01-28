@@ -140,7 +140,6 @@ h2{
   text-align: center;
 }
 
-
 #main-image{
   background: #eec71a;
   grid-column: 1/-2;
@@ -156,7 +155,6 @@ h2{
   #nav-top ul {
     color: #9ab6bd;
     width: 60%;
-    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -179,6 +177,16 @@ h2{
   justify-content: space-evenly;
 }
 
+.project-front-page{
+  display: flex;
+    margin-top: 1.5em;
+    flex-direction: column;
+    align-items: center;
+    min-height: 252px;
+    width: 30%;
+    background: antiquewhite;
+}
+
 .post-box{
   width: 30vw;
   height: 30vh;
@@ -190,19 +198,26 @@ h2{
 }
 #grid-nav2{background: #dbdbdd;
   grid-column: 3/-1;
-      grid-row: 2/2;}
+  grid-row: 2/2;}
+
 #grid-nav3{background: #dbdbdd;
   grid-column: 2/-2;
-      grid-row: 3/-1;
+  grid-row: 3/-1;
 }
+
 #grid-nav4{background: #f7f7f7;
   grid-column: 3/-1;
-      grid-row: 3/-1;}
+  grid-row: 3/-1;
+}
 
 #post-container{
   min-height: 250px;
-    margin-top: 5%;
-    padding: 4%;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
     }
 
 #footer-container {
