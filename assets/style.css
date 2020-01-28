@@ -236,8 +236,24 @@ h2{
 }
 
 .project-front-post:hover{
-  animation: imageSaturate 2s ease-in-out;
+  animation: imageSaturate 1s;
   animation-fill-mode: forwards;
+}
+
+
+@keyframes moveIt {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+.project-front-post:hover > h2 {
+  animation: moveIt 1s;
+animation-fill-mode: forwards;
 }
 
 .project-front-post h2{
