@@ -284,6 +284,7 @@ animation-fill-mode: forwards;
 .project-front-post:hover > .info > .category-tags{
     animation: getLit 2s;
     animation-direction: forwards;
+    animation-iteration-count: 0;
   }
 
 .info h2 {
