@@ -260,6 +260,16 @@ animation-fill-mode: forwards;
     transform: rotate(-3deg) translatey(130%);
 }
 
+
+
+@keyframes getLit {
+  0% {}
+  100% {
+    opacity: 1;
+  }
+}
+
+ 
 .project-front-post .category-tags{
   text-transform: lowercase;
     position: relative;
@@ -269,6 +279,8 @@ animation-fill-mode: forwards;
     flex-direction: row;
     justify-content: flex-end;
     width: 100%;
+    animation: getLit 2s;
+  animation-direction: forwards;
 }
 
 .info h2 {
@@ -276,6 +288,8 @@ animation-fill-mode: forwards;
     background: #47494c;
     padding: 1em 0 3em 0;
 }
+
+
 
 p.tag{
   color: white;
