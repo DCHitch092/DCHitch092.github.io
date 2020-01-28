@@ -281,7 +281,7 @@ animation-fill-mode: forwards;
     width: 100%;
 }
 
-.project-front-post:hover > .category-tags{
+.project-front-post:hover > .info > .category-tags{
     animation: getLit 2s;
     animation-direction: forwards;
   }
