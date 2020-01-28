@@ -258,8 +258,6 @@ animation-fill-mode: forwards;
     text-transform: lowercase;
     object-fit: cover;
     transform: rotate(-3deg) translatey(130%);
-    animation: moveIt 1s;
-    animation-fill-mode: backwards;
 }
 
 .project-front-post .category-tags{
