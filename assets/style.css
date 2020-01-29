@@ -75,8 +75,9 @@ $brown: #bba9aa; */
 
 body{
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 .top-background{
   display: flex;
@@ -234,8 +235,6 @@ animation-fill-mode: forwards;
     transform: rotate(-3deg) translatey(130%);
 }
 
-
-
 @keyframes getLit {
   0% {}
   100% {
@@ -341,9 +340,31 @@ p.tag{
   @media screen and (max-width: 600px) {
   #post-container {
     flex-direction: column;
+    margin-top: 0;
   }
 
   #grid-container{
     margin:0;
   }
+
+  #header{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .project-front-post:hover, .project-front-post:hover < .info, .project-front-post:hover > .info .category-tags {
+
+  }
+
+  .project-front-post{
+    background-color: rgb(231, 224, 232,0);
+  }
+
+  .project-front-post .info {
+    transform: rotate(-3deg) translatey(80%);
+  }
+
 }
