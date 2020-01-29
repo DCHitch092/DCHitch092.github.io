@@ -3,7 +3,7 @@
       <main id="post-container">
         {% for post in site.posts %}
       
-        <article class="project-front-post" style="background-image: url({{ site.url }}{{post.image}});">
+        <article class="project-front-post {% if post.featured == true %} featured {% endif %}" style="background-image: url({{ site.url }}{{post.image}});">
           <aside class="info">
             <div class="category-tags">
               {% for tag in post.tags %}

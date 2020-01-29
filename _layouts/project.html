@@ -1,9 +1,15 @@
 ---
-name: project
+
 ---
 
 {% include header.html %}
-{{ content }}
-{{ post.title }} {% if post.field == 'software' %}[GitHub]({post.github}){% endif %}
+{{ post.title }}
+
+
+    {% if post.field == 'software' %}
+        <a href="{post.github}">GitHub Link</a>"
+    {% endif %}
 {{ post.category}}
+
+{{ content }}
 {% include footer.html %}
