@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  "Metronome"
 date:   2020-01-17 11:14:30 +0000
 categories: software

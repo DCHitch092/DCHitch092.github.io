@@ -4,6 +4,7 @@ title:  "FRNG Coin"
 date:   2020-01-17 11:14:30 +0000
 category: software
 tags: Vue JavaScript
+github: https://github.com/DCHitch092/FRNG
 image: https://upload.wikimedia.org/wikipedia/commons/d/dd/Edinburgh_Fringe_037.jpg
 ---
 
