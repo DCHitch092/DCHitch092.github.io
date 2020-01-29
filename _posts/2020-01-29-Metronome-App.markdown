@@ -1,9 +1,13 @@
 ---
 layout: post
-title:  "Hello World"
+title:  "Metronome"
 date:   2020-01-17 11:14:30 +0000
-categories: jekyll update
-field: graphic_design
-tags: Adobe PS AI
-image: metronome.png
+categories: software
+field: software
+tags: React Javascript
+image: metronome.jpg
 ---
+
+
+You can see the github repository [here](https://github.com/DCHitch092/Metronome_App).
+
