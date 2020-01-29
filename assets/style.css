@@ -73,6 +73,11 @@ $red: #9b4443;
 $black: #47494c;
 $brown: #bba9aa; */
 
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .top-background{
   display: flex;
     flex-direction: row;
@@ -193,8 +198,8 @@ h2{
     margin-right: 0.5em;
     flex-direction: column;
     align-items: center;
-    min-height: 252px;
-    width: 30%;
+    min-height: 250px;
+    min-width: 30%;
     overflow: hidden;
     justify-content: center;
 }
@@ -336,5 +341,9 @@ p.tag{
   @media screen and (max-width: 600px) {
   #post-container {
     flex-direction: column;
+  }
+
+  #grid-container{
+    margin:0;
   }
 }
