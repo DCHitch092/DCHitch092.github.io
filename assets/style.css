@@ -251,9 +251,7 @@ animation-fill-mode: forwards;
 }
 
 .project-front-post:hover > .info .category-tags{
-    animation: getLit 2s;
-    animation-direction: forwards;
-    animation-iteration-count: 0;
+    animation: getLit 2s forwards;
   }
 
 .info h2 {
@@ -273,7 +271,9 @@ h2 a {
 
 p.tag{
   color: white;
-  padding: 0.5em 1em;
+    padding: 0.5em 1em;
+    margin-right: 0.3em;
+    text-shadow: 0.1em 0.1em 0.4em black;
 }
 
 .post-box{
