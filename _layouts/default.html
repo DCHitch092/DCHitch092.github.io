@@ -42,7 +42,7 @@
       <main id="post-container">
         {% for post in site.posts %}
       
-        <article class="project-front-post">
+        <article class="project-front-post" style="background-image: url({{post.image? post.image : 'https://avatars1.githubusercontent.com/u/55356922?s=460&v=4'}});">
           <aside class="info">
             <div class="category-tags">
               {% for tag in post.tags %}
