@@ -205,7 +205,21 @@ h2{
     justify-content: center;
 }
 
-@-webkit-keyframes imageSaturate, @-moz-keyframes imageSaturate, @-o-keyframes imageSaturate, @keyframes imageSaturate {
+@-webkit-keyframes imageSaturate{
+  0% {background-color: rgb(231, 224, 232,0.5);}
+  100% {background-color: rgb(231, 224, 232,0);}
+}
+
+  @-moz-keyframes imageSaturate{
+  0% {background-color: rgb(231, 224, 232,0.5);}
+  100% {background-color: rgb(231, 224, 232,0);}
+}
+  
+  @-o-keyframes imageSaturate{
+  0% {background-color: rgb(231, 224, 232,0.5);}
+  100% {background-color: rgb(231, 224, 232,0);}
+}
+ @keyframes imageSaturate {
   0% {background-color: rgb(231, 224, 232,0.5);}
   100% {background-color: rgb(231, 224, 232,0);}
 }
