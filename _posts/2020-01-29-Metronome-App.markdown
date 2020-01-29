@@ -5,7 +5,7 @@ date:   2020-01-17 11:14:30 +0000
 categories: software
 field: software
 tags: React Javascript
-image: assets/metronome.jpg
+image: ({{ site.url }}/assets/metronome.jpg
 ---
 
 
