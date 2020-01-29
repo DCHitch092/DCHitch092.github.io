@@ -4,7 +4,7 @@ title:  "Hello World"
 date:   2020-01-17 11:14:30 +0000
 categories: jekyll update
 field: graphic_design
-tags: PS AI
+tags: Photoshop Illustrator
 image: https://upload.wikimedia.org/wikipedia/commons/d/dd/Edinburgh_Fringe_037.jpg
 ---
 
