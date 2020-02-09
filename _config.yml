@@ -28,14 +28,17 @@ twitter_username: thehitch
 github_username:  dchitch092
 #
 # Build settings
+ 
 # theme: minima
 # theme: hitch-theme
 sass:
     style: compressed
+
 plugins:
   - jekyll-feed
 
 kramdown:
+  parse_block_html: true
   syntax_highlighter: rouge
   input: GFM
   auto_ids:       true

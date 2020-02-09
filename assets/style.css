@@ -132,6 +132,13 @@ body{
 
 }
 
+.about-img{
+	width: 50%;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
 header{
   margin-top: 2em;
     display: flex;
@@ -152,6 +159,11 @@ h2{
   text-align: center;
 }
 
+h3 {
+  font-size: 1.5rem;
+    padding-top: 1rem;
+    color: #9ab6bd;
+}
 #main-image{
   background: #eec71a;
   grid-column: 1/-2;
@@ -206,13 +218,15 @@ h2{
     flex-direction: column;
     align-items: center;
     min-height: 250px;
-    flex-shrink: 1;
+    flex: 1 0;
+    min-width: 30%;
     overflow: hidden;
     justify-content: center;
 }
 
 .featured {
   flex-grow: 2;
+    order: -1;
 }
 
 @-webkit-keyframes imageSaturate{
@@ -224,7 +238,7 @@ h2{
   0% {background-color: rgb(231, 224, 232,0.5);}
   100% {background-color: rgb(231, 224, 232,0);}
 }
-  
+
   @-o-keyframes imageSaturate{
   0% {background-color: rgb(231, 224, 232,0.5);}
   100% {background-color: rgb(231, 224, 232,0);}
@@ -243,7 +257,7 @@ h2{
 @keyframes moveIt {
   0% {}
   100% {
-    transform: rotate(-3deg) translatey(80%);
+    transform: rotate(-3deg) translatey(110%);
   }
 }
 
@@ -253,10 +267,10 @@ animation-fill-mode: forwards;
 }
 
 .project-front-post .info{
-    width: 106%;
+    width: 120%;
     text-transform: lowercase;
     object-fit: cover;
-    transform: rotate(-3deg) translatey(130%);
+    transform: rotate(-3deg) translatey(150%);
 }
 
 @keyframes getLit {
@@ -266,7 +280,7 @@ animation-fill-mode: forwards;
   }
 }
 
- 
+
 .project-front-post .category-tags{
   text-transform: lowercase;
     position: relative;
@@ -299,8 +313,7 @@ h2 a {
 
 p.tag{
   color: white;
-    padding: 0.5em 1em;
-    margin-right: 0.3em;
+    padding: 0em 1em 0.2em 0.1em;
     text-shadow: 0.1em 0.1em 0.4em black;
 }
 
@@ -334,15 +347,13 @@ p.tag{
 
 #post-container{
   min-height: 250px;
-    width: 100%;
-    margin-top: 5%;
+    max-width: 100%;
     padding: 1em;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex: 1 1 0;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: flex-start;
-    flex-flow: wrap;
     }
 
 #footer-container {

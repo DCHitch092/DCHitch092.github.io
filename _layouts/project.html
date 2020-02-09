@@ -3,13 +3,15 @@
 ---
 
 {% include header.html %}
-{{ post.title }}
+<title>{{ post.title }}</title>
 
-
+<main class="project">
     {% if post.field == 'software' %}
-        <a href="{post.github}">GitHub Link</a>"
+        <a href="{{ post.github }}">GitHub Link</a>"
     {% endif %}
-{{ post.category}}
-
+{{ post.category }}
 {{ content }}
+</main>
+
+
 {% include footer.html %}

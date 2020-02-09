@@ -4,8 +4,12 @@ title:  "FRNG Coin"
 date:   2020-01-17 11:14:30 +0000
 category: software
 tags: Vue JavaScript
+featured: true
 github: https://github.com/DCHitch092/FRNG
 image: /assets/frng.png
 ---
 
-So this is where I write my first blog post. I'm just coming to the end of my time with CodeClan, which has been fantastic. During this 16 week course I've learned to code with Ruby, Javascript and Java, and built apps on a regular basis. I'm now ready to move into work as a junior software developer, confident with the tools at my disposal - but excited to build on this knowledge!
+### Background
+I've been a performer for years, with well over 10 years taking various projects to the Edinburgh Festival. Currently, performers get a bum deal - they perform 25 times, flyering all day to fill venues, and collect money from ticket revenue or from a bucekt collecting donations at the end of the show. 
+
+### The Problem
