@@ -1,4 +1,3 @@
-
 ---
 layout: project
 title:  "Mocha the Week"
